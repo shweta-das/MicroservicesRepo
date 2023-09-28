@@ -46,6 +46,27 @@
 			"response": []
 		},
 		{
+			"name": "Orders Book By ID GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/orders/bookorder/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"orders",
+						"bookorder",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Orders By ID DELETE",
 			"request": {
 				"method": "DELETE",
